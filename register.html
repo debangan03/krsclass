@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <title>Register</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" height="50px" alt="">
+        </div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#About">About</a></li>
+            <li><a href="./index.html#footer">Contact</a></li>
+        </ul>
+       
+        <ul>
+            <div class="btn">
+                <button class="btn1" style="background-color:green;border:none;" ><a href="login.html">Login</a></button>
+                <button class="btn1" style="background-color:red;border:none;" ><a href="">Register</a></button>
+        </div>
+        </ul>
+       
+    </nav>
+    <main>
+    <div class="reg">
+    <div class="container-reg">
+        <h1>
+            REGISTRATION FORM
+            <center><hr/></center>
+            
+        </h1>
+       
+        <form id="myform">
+            <div>
+                <label  class="userbox" >Name : </label>
+                
+                <input id ="username" type="text" class="form-layout"placeholder="Enter name here" name="Name">
+                <div id="error">
+
+                </div>
+                <div>
+                    <label  class="userbox" >Phone : </label>
+                    
+                    <input type="number" class="form-layout"placeholder="enter phone no here" name="phone">
+                    <div id="perror">
+    
+                    </div>
+                    <div>
+                        <label  class="userbox" >Email : </label>
+                        
+                        <input type="text" class="form-layout"placeholder="enter email here" name="Email">
+                        <div id="eerror">
+        
+                        </div>
+                        <div>
+                            <label  class="userbox" >Gender : 
+                            <input type="checkbox" class="form-layout"  name="Male" value="Male">
+                            <label >Male </label>
+                            <input type="checkbox"  name="form-layout" value="Female">
+                            <label for="vehicle2">Female</label>
+                        </label>
+                        </div>
+                        <div>
+                            <label  class="userbox" >Qualification : 
+                            <input type="checkbox" class="form-layout"  name="student" value="student">
+                            <label >student</label>
+                            <input type="checkbox"  name="form-layout" value="teacher">
+                            <label >teacher</label>
+
+                        </label>
+                        </div>
+                        <div>
+                            <label  class="userbox" >Course : 
+
+                            <input type="checkbox" class="form-layout"  name="webdevelopment" value="WebDevelopment" >
+                            <label >Web Development</label>
+                            <input type="checkbox"  class="form-layout" name="appDevelopment" value="appDevelopment" >
+                            <label >Web Development</label>
+                        </label>
+                        </div>
+                        <div class="form-layout">
+                            <label>Country :</label>
+                            <select id="Country" name="Country">
+                              <option value="India">India</option>
+                              <option value="Usa">Usa</option>
+                              <option value="China">China</option>
+                              <option value="Russia">Russia</option>
+                            </select>
+                            
+
+                        </div>
+                        <div>
+                            <label for="">Conditions : </label>
+                            <p>
+                                1.Each user shall only register once
+                            </p>
+                            <p>
+                                2.it is the user's responsibility to make sure that she/he has sufficiant access to</p>
+                                internet to participate to the activitiesat the desired extent.
+                            </p>
+                            <input  class="form-layout" type="checkbox">
+                            <label > "I have read and agreed to all conditions"</label>
+                        </div>
+                        <div>
+                            <label>Comments : </label>
+                            <textarea id="txtarea" name="txtarea" rows="4" cols="30"></textarea>
+                        </div>
+                        <div>
+                            <button class="bs" id="loginButton" type="button">Submit</button>
+                            <button class="bc" id="clear" type="button">clear</button>
+            
+                        </div>
+                        
+                        
+        </form>
+
+
+    </div>
+</div>
+</div>
+
+</main>
+
+   
+    <footer>
+        <center><hr/></center>
+        <div class="footer" id="footer">
+            <div>
+                <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="">
+            </div>
+            <div class="container-link">
+                <div>
+                    <h2>Site map</h2>
+                    <h2>home</h2>
+                    <h2>About Us</h2>
+                    <h2>Contact-Us</h2>
+                </div>
+                <div>
+                    <h2>Site map</h2>
+                    <h2>home</h2>
+                    <h2>About Us</h2>
+                    <h2>Contact-Us</h2>
+                </div>
+    
+            </div>
+    </footer>
+    <!--  -->
+</div>
+<script src="./register.js"></script>
+</body>
+</html>
